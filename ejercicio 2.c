@@ -70,10 +70,10 @@ int main() {
         if (tiempoUsadoCPU > tiempoMaxBinaria) tiempoMaxBinaria = tiempoUsadoCPU;
     }
 
-    printf("\n\n--- Estadísticas Resumidas ---\n");
-    printf("Búsqueda Secuencial\n - Tiempo Promedio: %f milisegundos \n - Tiempo Mínimo: %f milisegundos\n - Tiempo Máximo: %f milisegundos\n\n",
+    printf("\n\n--- EstadÃ­sticas Resumidas ---\n");
+    printf("BÃºsqueda Secuencial\n - Tiempo Promedio: %f milisegundos \n - Tiempo MÃ­nimo: %f milisegundos\n - Tiempo MÃ¡ximo: %f milisegundos\n\n",
            tiempoTotalSecuencial / 100, tiempoMinSecuencial, tiempoMaxSecuencial);
-    printf("Búsqueda Binaria\n - Tiempo Promedio: %f milisegundos \n - Tiempo Mínimo: %f milisegundos\n - Tiempo Máximo: %f milisegundos\n\n",
+    printf("BÃºsqueda Binaria\n - Tiempo Promedio: %f milisegundos \n - Tiempo MÃ­nimo: %f milisegundos\n - Tiempo MÃ¡ximo: %f milisegundos\n\n",
            tiempoTotalBinaria / 100, tiempoMinBinaria, tiempoMaxBinaria);
 
     return 0;
